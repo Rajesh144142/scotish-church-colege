@@ -1,0 +1,370 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+  
+  
+  }
+.header{
+    background-color:rgb(4, 4, 173);
+    display:flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.name{
+    font-size:30px;
+    color: rgb(219, 187, 211);
+}
+.nameCollage{
+    display:flex;
+
+}
+.detailname{
+    font-size: 15px;
+    color:rgb(231, 231, 122);
+}
+.coursesandabout{
+    display: flex;
+    font-size: 20px;
+    padding-top: 70px;
+    gap: 40px;
+    color: beige;
+    padding-right: 15px;
+   
+}
+.coursesandabout a{
+    color: aliceblue;
+    text-decoration: none;
+  }
+  .coursesandabout a:hover{
+    color: black;
+    background-color: rgb(85, 112, 244);
+  
+  }
+
+.mySlides {
+    display: none
+    
+  }
+  
+  .mySlides img {
+    vertical-align: center;
+    height: 470px;
+  
+  
+  
+  
+  }
+  
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1500px;
+  
+    position: relative;
+    margin: auto;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* Fading animation */
+ .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: .4
+    }
+  
+    to {
+      opacity: 1
+    }
+  }
+  
+  .slide {
+    margin-top: 1.5rem;
+    overflow: hidden;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+  }
+  
+  
+  
+  
+  @media screen and (max-width: 240px) {
+    .slideshow-container {
+      padding-left: 5px;
+      padding-right: 5px;
+  
+    }
+  }
+  
+  @media screen and (max-width: 650px) {
+    .slide {
+      min-width: 650px;
+    }
+  
+  }
+  @media screen and (max-width: 700px){
+    .mySlides img{
+      width:70%;
+      height: 350px;
+  
+    }
+  }
+  @media screen and (max-width: 602px) {
+    .slide {
+      margin-top: 4rem;
+    }
+  }
+  .thirdPart{
+    
+      display:flex;
+      gap: 10px;
+      padding: 5px;
+      align-items: center;
+      justify-content: center;
+      padding-top: 75px;
+      
+  }
+  .cart{
+    border:1px solid white;
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+    padding-top: 8px;
+    padding-left: 2.5rem;
+
+  }
+ .One{
+    background-color: rgb(139, 44, 146);
+  }
+  .Two{
+    background-color: rgb(79, 19, 170);
+  }
+  .Threee{
+    background-color:rgba(24, 73, 3, 0.953);
+  }
+ .cartName{
+    padding-top: 10px;
+    font-size: 20px;
+    color: azure;
+    
+ }
+ .line{
+    padding-top: 10px;
+    width:120px;
+
+ }
+ .cartDetail{
+    padding-top: 10px;
+    padding-right: 30px;
+ }
+ .readmore {
+    padding-top: 20px;
+    
+   
+}
+.readmore button{
+    padding: 5px;
+    font-size: 15px;
+    background-color: rgba(179, 223, 203, 0.477);
+}
+.readmore button:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+.fou{
+    margin-left: 100px;
+    padding-top: 130px;
+    padding-bottom: 10px;
+
+}
+.founder{
+    
+    display:flex;
+    padding-top: 50px;
+    margin-left: 100px;
+ margin-right: 53px;
+    gap:20px;
+    border:10px solid rgb(249, 230, 230);
+    padding-left: 15px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    
+    
+}
+.imgpart img{
+    width:200px;
+    border: 0.5px black;
+}
+.imgname,.imgdob{
+    padding-top: 15px;
+    font-size: 18px;
+}
+.aboutfounder{
+    font-size: 20px;
+    
+}
+.aboutA{
+    padding-top: 30px;
+}
+.aboutA a{
+    color: black;
+    text-decoration: none;
+}
+.aboutA button {
+ background-color:rgb(213, 177, 177);
+ font-size: 20px;padding: 5px;
+
+}
+.aboutA button:hover{
+    background-color:black;
+   
+   }
+.aboutA  a:hover{
+    color: aliceblue;
+}
+.lastpart{
+    padding-top: 75px;
+    
+}
+.partOne{
+    background-color:rgb(4, 4, 173);
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.thecollege{
+    width: 15%;
+    color:white;
+
+}
+.collegeee{
+    font-size: 25px;
+    padding: 10px;
+}
+.collegee{
+    font-size: 20px;
+    padding: 10px;
+}
+.collegee:hover{
+    color:black;
+}
+.aboutfoundation{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.aboutfoundation h1{
+    font-size: 30px;
+    color:rgb(188, 168, 60);
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-left: 100px;
+}
+.aboutphoto img{ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 15px solid rgb(233, 229, 233);
+    border-radius: 15px;
+}
+.abouthim{
+    padding-top: 15px;
+    margin-left: 170px;
+    margin-right: 170px;
+    text-align: center;
+    font-size: 17px;
+    background-color: whitesmoke;
+}
+.more{
+    padding-top: 70px;
+    margin-left:75%;
+}
+.more button{
+    font-size: 25px;
+    padding: 10px;
+   
+}
+.more button:hover{
+    background-color: black;
+    color:white;
+}
+#More {display: none;}
+#MoreOne {display: none;}
+#Moretwo {display: none;}
+.vision{
+   /*margin-left: 41%;
+    margin-right: 41%;*/
+    text-align: center;
+    
+}
+.same{
+  margin-left: 100px;
+  border:3px solid black;
+  padding: 15px;
+  width: 600px;height:250px;
+  display: flex;
+ row-gap: 30px;
+  flex-direction: column;
+  border-radius: 15px;
+}
+.same li{
+     font-weight: bold;
+    padding: 10px;
+    color:black;
+}
+.Coursespartthree{
+  padding: 20px;
+
+}
+.offers{
+ text-align: center;
+}
+
+.hr{
+  padding-bottom: 20px;
+  padding-top: 10px;
+  height: 5px;
+  margin-left:80px;
+  margin-right: 80px;
+}
+.play{
+  display:flex;
+  flex-direction: column;
+  row-gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.undergraduatecourses{
+ background-color: green;
+}
+.teachereducation{
+  background-color: rgb(135, 235, 226);
+}
+.PostGraduateCourses{
+  background-color: rgb(225, 140, 157);
+}
+.Generalstructure{
+  background-color: rgb(214, 231, 103);
+}
+
+
+   
