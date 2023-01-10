@@ -165,6 +165,10 @@
     color: azure;
     
  }
+ .readmore button a{
+  text-decoration: none;
+  color:aliceblue;
+ }
  .line{
     padding-top: 10px;
     width:120px;
@@ -185,7 +189,7 @@
     background-color: rgba(179, 223, 203, 0.477);
 }
 .readmore button:hover{
-    background-color: black;
+  background-color:black;
     color: whitesmoke;
 }
 .fou{
@@ -229,14 +233,13 @@
 }
 .aboutA button {
  background-color:rgb(213, 177, 177);
- font-size: 20px;padding: 5px;
+ font-size: 20px;
+ padding: 5px;
 
 }
-.aboutA button:hover{
-    background-color:black;
-   
-   }
-.aboutA  a:hover{
+
+.aboutA button :hover{
+
     color: aliceblue;
 }
 .lastpart{
